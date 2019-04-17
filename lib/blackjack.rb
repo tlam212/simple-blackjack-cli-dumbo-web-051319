@@ -40,7 +40,7 @@ def hit?(number)
     number
   elsif answer == 'h'
    number += deal_card
-   display_card_total(number)
+
     number
   else
     invalid_command
